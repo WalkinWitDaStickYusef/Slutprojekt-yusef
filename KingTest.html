@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+container {
+position: relative;
+width: 50%;
+}
+
+image {
+display: block;
+width: 100%;
+height: auto;
+}
+
+overlay {
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+height: 100%;
+width: 100%;
+opacity: 0;
+transition: .5s ease;
+background-color: rgba(0,0,0,0.5);
+}
+
+container:hover .overlay {
+opacity: 1;
+}
+tr td:first-child img{
+  transition: .2s;
+}
+tr td:first-child img:hover{
+  transform: scale(1.3);
+}
+
+text {
+color: white;
+font-size: 20px;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+/* Split the screen in half */
+split {
+height: 100%;
+width: 50%;
+position: fixed;
+z-index: 1;
+top: 0;
+overflow-x: hidden;
+padding-top: 20px;
+}
+
+/* Control the left side */
+left {
+left: 0;
+background-color: #111;
+}
+
+/* Control the right side */
+right {
+right: 0;
+background-color: red;
+}
+
+/* Center the content horizontally and vertically */
+centered {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+text-align: center;
+}
+
+/* Style the image inside the centered container */
+centered img {
+width: 150px;
+border-radius: 50%;
+}
+</style>
+</head>
+<body>
+    <div class="container">
+        <header>
+          <h1>Stugsajten</h1>
+        </header>
+        <nav>
+          <ul>
+            <li><a href="index.html">Hem</a></li>
+            <li><a href="vara-stugor.html">Våra stugor</a></li>
+            <li><a href="fotogalleri.html">Fotogalleri</a></li>
+            <li><a href="boka-stuga.html">Boka stuga</a></li>
+    <table>
+        <tr>
+          <td><img src=""></td>
+          <td><img src=""></td>
+        </tr>
+        <tr>
+          <td><img src=""></td>
+          <td><img src=""></td>
+        </tr>
+      </table>
+      
+
+<div class="container">
+<img src="Image/Harriet1.jpg" alt="Avatar" class="image">
+<div class="overlay">
+<div class="text">Hello World</div>
+<div class="split left">
+    <div class="centered">
+    <img src="Image/Harriet1.jpg" alt="Avatar woman">
+    <h2>Jane Flex</h2>
+    <p>Some text.</p>
+    </div>
+    </div>
+    <div class="split right">
+    <div class="centered">
+    <img src="Image/Harriet1.jpg" alt="Avatar man">
+    <h2>John Doe</h2>
+    <p>Some text here too.</p>
+    </div>
+    </div>
+</div>
+</div>
+
+</body>
+</html>

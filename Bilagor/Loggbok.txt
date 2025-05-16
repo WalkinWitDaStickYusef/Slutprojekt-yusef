@@ -4,3 +4,5 @@ Day 2025-04-25
 Jag fortstate med att planera min projekt genom att göra klart min mall.
 Day 2025-05-09
 Så jag planerade klart färgerna som skulle vfara på min projekt och gjorde en struktur på html om hur det skulle kunna se ut
+Day 2025-05-16
+Jag använde chatgpt för att hitta strukturer och sätter för att bygga ihop så som jag hade tänkt glra.

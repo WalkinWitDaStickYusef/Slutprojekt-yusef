@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profilpresentation</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f5f5f5;
+    }
+
+    .header {
+      display: flex;
+      height: 200px;
+    }
+
+    .info-box, .image-box {
+      width: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .info-box {
+      background-color: #e0e0e0;
+    }
+
+    .image-box {
+      background-color: #c0c0c0;
+    }
+
+    .stars {
+      text-align: center;
+      font-size: 30px;
+      margin: 20px 0;
+    }
+
+    .content {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: white;
+    }
+
+    .paragraph {
+      margin-bottom: 20px;
+      line-height: 1.6;
+    }
+
+    .hover-image-container {
+      text-align: center;
+      margin: 40px 0;
+    }
+
+    .hover-image {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      transition: transform 0.3s ease;
+      border: 2px solid #000;
+    }
+
+    .hover-image:hover {
+      transform: scale(1.2);
+    }
+
+    .box {
+      border: 2px solid black;
+      padding: 20px;
+      margin: 20px 0;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <div class="info-box">
+      <p>Vem var han – snabb information</p>
+    </div>
+    <div class="image-box">
+      <p>En bild av någon</p>
+    </div>
+  </div>
+
+  <div class="stars">★ ★ ★</div>
+
+  <div class="content">
+    <div class="paragraph">
+      <p>Här kommer lite längre beskrivande text som pratar om personen och hans liv.</p>
+    </div>
+
+    <div class="paragraph">
+      <p>Ytterligare information som breddar förståelsen för vem han var och vad han gjorde.</p>
+    </div>
+
+    <div class="hover-image-container box">
+      <p>Bild av någon som är interaktiv och blir större när man hovrar över:</p>
+      <img src="Produkt/Image/Harriet1.jpg" alt="Interaktiv bild" class="hover-image">
+    </div>
+
+    <div class="paragraph">
+      <p>Avslutande text eller fler detaljer om personen i am .</p>
+    </div>
+  </div>
+
+</body>
+</html>
